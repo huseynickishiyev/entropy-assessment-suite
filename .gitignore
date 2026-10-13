@@ -1,0 +1,54 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Build artifacts
+build/
+dist/
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.app/
+engine/ip4_health
+engine/ip4_health.exe
+
+# NIST compiled binaries
+ea_iid
+ea_non_iid
+ea_restart
+ea_conditioning
+
+# Experiment data and results
+datasets/
+results/
+results_*/
+*.bin
+*.log
+
+# Local configuration
+.env
+.env.*
+!.env.example
+.cleanup_backup/
+*.bak
+
+# macOS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+.nist_location
