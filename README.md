@@ -310,19 +310,20 @@ The application also reports descriptive statistics used to inspect the data.
 
 One example is empirical Shannon entropy:
 
-\[
-H(X)=-\sum_{x}p(x)\log_2 p(x)
-\]
+$$
+H(X) = -\sum_{x \in \mathcal{X}} p(x)\log_2 p(x)
+$$
 
 Another is the empirical most-common-value estimate:
 
-\[
-H_{\mathrm{MCV}}=-\log_2\left(\max_x p(x)\right)
-\]
+$$
+\widehat{H}_{\mathrm{MCV}} = -\log_2\left(\max_{x \in \mathcal{X}} p(x)\right)
+$$
 
-Here, \(p(x)\) denotes the empirical frequency of symbol \(x\).
+Here, $p(x)$ denotes the empirical frequency of symbol $x$, and $\mathcal{X}$ is the sample alphabet.
 
 These quantities are useful for describing a dataset, but they should not be confused with the final SP 800-90B assessed min-entropy. The reference assessment procedures incorporate statistical bounds and estimator-specific rules that are not captured by a simple plug-in calculation.
+
 
 ### Health-test alarms
 
