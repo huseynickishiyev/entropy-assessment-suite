@@ -428,3 +428,23 @@ There are several boundaries to the present implementation.
 
 3. **NIST Special Publication 800-90A Revision 1.** *Recommendation for Random Number Generation Using Deterministic Random Bit Generators.* National Institute of Standards and Technology, June 2015.  
    https://doi.org/10.6028/NIST.SP.800-90Ar1
+
+This repository contains research software developed as part of
+a TÜBİTAK 1001 research project.
+
+The source code is publicly accessible for research transparency,
+technical examination, and project evaluation.
+
+No open-source license has been granted at this stage.
+All rights are reserved by the respective copyright holders.
+
+Public availability of the source code does not constitute
+permission to reproduce, modify, redistribute, or commercially
+exploit the software.
+
+Licensing terms may be established following the completion
+of the research project and confirmation of the applicable
+intellectual property rights.
+
+The NIST SP 800-90B reference implementation is maintained
+separately and remains subject to its own applicable terms.
