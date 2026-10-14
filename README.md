@@ -428,19 +428,3 @@ There are several boundaries to the present implementation.
 
 3. **NIST Special Publication 800-90A Revision 1.** *Recommendation for Random Number Generation Using Deterministic Random Bit Generators.* National Institute of Standards and Technology, June 2015.  
    https://doi.org/10.6028/NIST.SP.800-90Ar1
-
-## Project status
-
-This repository is under active development.
-
-Its current purpose is to provide a practical experimental environment for entropy assessment and health testing while keeping the reference implementation, additional research code, and reported measurements clearly distinguishable.
-
-It is not a NIST-certified entropy-source validation product, and successful execution of the application does not establish compliance with SP 800-90B.
-
-## License and usage
-
-No license has been published for this repository.
-
-The absence of a license does not grant permission to copy, modify, or redistribute the code. Any future licensing decisions will be made separately, taking into account the research project and applicable ownership requirements.
-
-The NIST reference implementation is maintained independently and is subject to its own terms and notices.
