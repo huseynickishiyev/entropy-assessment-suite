@@ -1,5 +1,7 @@
 
-# Entropy Assessment Suite
+# TÜBİTAK 1001 – 124F362 Entropy Assessment Suite
+
+# This repository is supported by TÜBİTAK 1001 - 124F362 Project.
 
 A desktop application for entropy estimation and health testing, built around the reference implementation of [NIST SP 800-90B](https://csrc.nist.gov/pubs/sp/800/90/b/final).
 
